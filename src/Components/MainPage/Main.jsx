@@ -9,6 +9,7 @@ import 'aos/dist/aos.css';
 import MainAbout from "../MainPage/MainAbout/MainAbout";
 import MainAdvantage from './MainAdvantage/MainAdvantage';
 import SliderPic from './MainAdvantage/slider_images/SliderPic';
+import Projects from './Projects/Projects';
 const Main = () => {
   const {t, i18n} = useTranslation();
   useEffect(() => {
@@ -58,6 +59,7 @@ const Main = () => {
 <MainAbout/>
 <MainAdvantage/>
 <SliderPic/>
+<Projects/>
     </>
   )
 }

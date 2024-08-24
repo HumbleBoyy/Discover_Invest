@@ -6,6 +6,12 @@ import workerTwo from "../images/persontwo.webp"
 import workerThree from "../images/personthree.webp"
 import workerFour from "../images/personfour.webp"
 import workerFive from "../images/personefive.webp"
+import magicCity from "../images/magiccity.webp"
+import presidentschool from "../images/presidentschool.webp"
+import boulevard from "../images/boulevard.webp"
+import fonon from "../images/fonon.webp"
+import projectsfive from "../images/projectsfive.webp"
+import apartment from "../images/apartment.webp"
 export default {
     LogoWhite,
     LogoDark,
@@ -14,5 +20,12 @@ export default {
     workerTwo,
     workerThree,
     workerFour,
-    workerFive
+    workerFive,
+
+    magicCity,
+    presidentschool,
+    boulevard,
+    fonon,
+    projectsfive,
+    apartment
 }
