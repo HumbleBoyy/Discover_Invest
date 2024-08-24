@@ -8,6 +8,9 @@
     height: 21.6rem;
     object-fit: cover;
 }
+.projects_wrapper{
+    margin-top: 2rem;
+}
 .projects__box{
     width: 100%;
     position: relative;

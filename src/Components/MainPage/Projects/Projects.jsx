@@ -1,5 +1,6 @@
 import React from 'react'
 import "./projects.css"
+import "../MainAdvantage/MainAdvantage.css"
 import { t } from 'i18next'
 import image from '../../../assets/image'
 const Projects = () => {
@@ -8,8 +9,8 @@ const Projects = () => {
       <section className='MainPage_Projects'>
         <div className="container">
           <div className="projects_items">
-             <div className="projects_title_wrapper">
-                <h2 className='projects_title'>{t("ourProjects")}</h2>
+             <div className="adavantages_title_Text">
+                <h2 data-aos="fade-down-right" className='projects_title'><span className="yellow_line"></span>{t("ourProjects")}</h2>
              </div>
 
              <div className="projects_wrapper">
