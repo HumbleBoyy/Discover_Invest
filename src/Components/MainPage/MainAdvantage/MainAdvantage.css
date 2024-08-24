@@ -1,0 +1,132 @@
+
+/* Advantages Section style*/
+.advantages {
+    padding-top: 3rem;
+    background: url(../../../images/advantagesss.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .adavantages_title_Text h2 {
+    width: 100%;
+    font-size: 2.5rem;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .adavantages_title_Text span.yellow_line::before {
+    height: 0.25rem;
+    content: "";
+    top: 50%;
+    width: 2.25rem;
+    position: absolute;
+    background-color: rgb(250, 180, 72);
+    left: -6%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .advantages_item {
+    &:hover{
+       h3{
+        color: rgb(250, 180, 72);
+        transition: ease-in-out 0.3s;
+     }
+     .advantages_icon{
+      color: rgb(250, 180, 72);
+      transition: ease-in-out 0.3s;
+     }
+    }
+  }
+  
+  .advantages_icon {
+    font-size: 5rem;
+    transition: 0.4s ease-in;
+    color: black;
+  }
+  
+  .advantages_item h3{
+    font-size: 2rem;
+    transition: ease-in-out 0.3s;
+    margin: 2rem 0rem;
+  }
+  
+  .advantages_items {
+    margin: 5rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .advantages_item {
+    margin: 4rem 1rem;
+    width: 100%;
+  }
+  .advantages_item p{
+    font-size: 1.2rem;
+    width: 100%;
+  }
+  /* Advantages Section style*/
+
+
+  @media(max-width:1024px){
+    .adavantages_title_Text h2 {
+      width: 100%;
+      font-size: 2.5rem;
+    }
+    .adavantages_title_Text span.yellow_line::before {
+       display: none;
+    }
+
+    .advantages_icon {
+      font-size: 5rem;
+    }
+    
+    .advantages_item h3{
+      font-size: 2rem;
+      margin: 2rem 0rem;
+    }
+    .advantages_item p{
+      font-size: 1.2rem;
+      width: 100%;
+    }
+    
+    .advantages_items {
+      margin: 4rem 0rem;
+      text-align: center;
+      flex-direction: column;
+    }
+    .advantages_item {
+      margin: 4rem 1rem;
+      width: 100%;
+    }
+  }
+
+  
+  @media(max-width:866px){
+    .adavantages_title_Text h2 {
+      width: 100%;
+      font-size: 2.5rem;
+    }
+    .adavantages_title_Text span.yellow_line::before {
+       display: none;
+    }
+
+    .advantages_icon {
+      font-size: 5rem;
+    }
+    
+    .advantages_item h3{
+      font-size: 2rem;
+      margin: 2rem 0rem;
+    }
+    .advantages_item p{
+      font-size: 1.2rem;
+      width: 100%;
+    }
+    
+    .advantages_items {
+      margin: 4rem 0rem;
+      text-align: center;
+      flex-direction: column;
+    }
+    .advantages_item {
+      margin: 4rem 1rem;
+      width: 100%;
+    }
+  }

@@ -1,0 +1,81 @@
+
+{
+  "about":"Haqimizda",
+  "projects":"Loyihalar",
+  "career":"Karyera",
+  "news":"Yangiliklar",
+  "contacts":"Aloqa",
+
+
+  "mainpage":"Har jihatda mukammallik",
+
+  "aboutText":"Kompaniyamiz nafaqat loyihalarni takomillashtirish, balki yangi imkoniyatlar uchun ham o'z eshiklarini ochadi. Davlat miqyosidagi imoratlarni barpo qilish bilan birga, istiqbol uchun ham asos solishda davom etamiz Biz atrof-muhit haqida qayg'uramiz: kompaniya binolar va infratuzilma poydevorlarini barpo etishdan tashqari, ulardan foydalanish bilan bog'liq ekologik jihatlar uchun hamma ma’suliyatni o'z zimmasiga oladi.",
+  "aboutText_Title":"DISCOVER INVEST kompaniyasi haqida",
+  "numberEmployee":"Xodimlar soni",
+  "marketPlace":"Bozorda 14 yildan buyon",
+  "object":"Loyihalar",
+  "resident":"Turar Joy Majmualar",
+  "hospital":"Shifoxonalar",
+  "specialTech":"Maxsus texnikalar",
+
+  "ouradvantages":"Bizning afzalliklarimiz",
+  "team":"Bizning jamoa",
+  "teamText":"Kompaniya tajribali xodimlarni tanlov asosida o'z safiga qabul qiladi.",
+  "postiveCustomer":"Mijozlarning ijobiy yondashuvi",
+  "postiveCustomerText":"Veb-saytimiz orqali biz amalga oshirgan ulkan ishlarni ko'rib, mijozlarning ishonchini zabt qilganimizga amin bo'lasiz.",
+  "guarantee":"Barcha ishlar kafolat ostida",
+  "guaranteeText":"Biz amalga oshirayotgan mashaqqatli ishimizga puxta yondashamiz va kompaniyamizga bo’lgan ishonchingizni qadrlaymiz.",
+
+  "kuziev":"Kuziyev Jaxongir Baxodirovich",
+  "norbekov":"Norbekov Shavkat Bo'riboy o'g'li",
+  "artiqbaev":"Artiqbaev Saxobiddin Doniyor o'g'li",
+  "boltaev":"Boltaev Obidjon Uchqin o'g'li",
+  "xusanov":"Xusanov Akromjon Turaxon o'g'li",
+  "managerWorker":"Loyiha menejeri",
+  "managerConstruct":"Qurilishda uchastka rahbari",
+
+  "magic":"Magic City",
+  "magicText":"Ijtimoiy ahamiyatga ega keng ko'lamli loyiha. Toshkent shahrining diqqatga sazovor va yangi madaniy-kongilochar joylaridan biri hisoblanadi.",
+
+  "boulevard":"Boulevard",
+  "boulevardText":"Aholi qulayligini ta’minlash maqsadida bunyod qilingan ko’p vazifali turar joy mavzesi",
+
+  "gardens":"Gardens Residence",
+  "gardensText":"Shaharning yuragida barpo etilgan turar joy mavzesi.",
+
+  "fonon":"Fonon",
+  "fononText":"Fonon – 2020-yilda Italiya standartlari asosida qurilgan zargarlik buyumlari ishlab chiqaruvchi zavod. Fonon Markaziy Osiyoda, Yevropa va sharq uslubida qimmatbaho metallardan zargarlik buyumlarini ishlab chiqaruvchi yagona yirik korxona hisoblanadi.",
+  
+  "invento":"Invento",
+  "inventoText":"Tashkent City biznes markazida joylashgan xalqaro maktab va bolalar bog’chasi.",
+
+  "schools":"Prezident maktabi",
+  "schoolsText":"Bu xalqaro standartlarga javob beradigan bilim beruvchi ta’lim maskanidir",
+  "allProject":"Barcha loyihalar",
+
+  "companyNews":"Kompaniya yangiliklari",
+  "detail":"Batafsil",
+
+  "questionText":"Qurilish loyihasining mutaxassisi deb kimni atash mumkin?",
+  "discoverNewYear":"Discover Invest kompaniyasi hammani yangi 2023-yil bilan qutlaydi!",
+  "CONSTITUTION":"O'ZBEKISTON RESPUBLIKASI KONSTITUTSIYASI QABUL QILINGAN KUN",
+  "investProp":"Discover Invest kompaniyasining keng ko'lamli qurilish obyektlari",
+  "allNews":"Barcha yangiliklar",
+
+
+  "address":"Manzil",
+  "addressText":"O’zbekiston Respublikasi, Toshkent shahri, Alisher Navoiy nomidagi Milliy Bog’ sayilgohi",
+  "phone":"Telefon",
+  "workingHours":"Ish vaqti",
+  "week":"09:00 - 18:00 dushanba-shanba",
+
+  "phoneNumber":"Telefon raqami",
+  "nameInput":"Ism",
+  "whatIsYourname":"Ismingiz nima",
+  "feedBack":"Qayta aloqa",
+
+  "footerText":"© 2022 Discover Invest. Barcha huquqlar himoyalangan."
+
+  
+    
+}

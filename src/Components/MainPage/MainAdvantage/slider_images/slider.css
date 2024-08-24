@@ -1,0 +1,99 @@
+.sliderPic {
+    height: 100vh;
+    padding-top: 6rem;
+}
+.slider_btns {
+    display: flex;
+    align-items: center;
+}
+.slideText{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.slider_btn
+{
+    position: relative;
+    padding: 0;
+    width: 2.85rem;
+    height: 2.85rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-transition: .3s all;
+    transition: .3s all;
+    border: 1px solid rgb(250, 180, 72);
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 1.25rem;
+}
+.slider_btn:hover{
+    background-color: rgb(250, 180, 72);
+    transition: .3s all;
+}
+.slider_btn:hover .slide_icons{
+    color: aliceblue;
+    transition: .3s all;
+}
+
+.slide_icons {
+    color: rgb(250, 180, 72);
+    transition: .3s all;
+}
+
+.yellow_line::before {
+    height: 0.25rem;
+    content: "";
+    top: 50%;
+    width: 2.25rem;
+    position: absolute;
+    background-color: rgb(250, 180, 72);
+    left: -6%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .slider_title {
+    width: 90%;
+    font-size: 2.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .slider_Slick {
+    padding-top: 6rem;
+  }
+
+.slide_workers img{
+    width: 100%;
+    padding: 2rem;
+  }
+  .slide_workers{
+    width: 100%;
+    outline: none;
+  }
+
+  .worker_name{
+    font-size: 1.3rem;
+    line-height: 30px;
+    width: 80%;
+    font-weight: 600;
+  }
+
+  .occuopation_name{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+ 
+
+  @media(max-width:786px){
+    .slider_btns{
+       display: none;
+    }
+  }
