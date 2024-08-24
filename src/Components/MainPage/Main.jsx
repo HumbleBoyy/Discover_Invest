@@ -10,6 +10,7 @@ import MainAbout from "../MainPage/MainAbout/MainAbout";
 import MainAdvantage from './MainAdvantage/MainAdvantage';
 import SliderPic from './MainAdvantage/slider_images/SliderPic';
 import Projects from './Projects/Projects';
+import News from './News/News';
 const Main = () => {
   const {t, i18n} = useTranslation();
   useEffect(() => {
@@ -60,6 +61,7 @@ const Main = () => {
 <MainAdvantage/>
 <SliderPic/>
 <Projects/>
+<News/>
     </>
   )
 }

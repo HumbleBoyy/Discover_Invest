@@ -12,6 +12,10 @@ import boulevard from "../images/boulevard.webp"
 import fonon from "../images/fonon.webp"
 import projectsfive from "../images/projectsfive.webp"
 import apartment from "../images/apartment.webp"
+import newsOne from "../images/newsone.webp"
+import newsTwo from "../images/newstwo.webp"
+import newsthree from "../images/newsthree.webp"
+import newsFour from "../images/newsfour.webp"
 export default {
     LogoWhite,
     LogoDark,
@@ -27,5 +31,10 @@ export default {
     boulevard,
     fonon,
     projectsfive,
-    apartment
+    apartment,
+
+    newsOne,
+    newsTwo,
+    newsthree,
+    newsFour
 }
