@@ -14,7 +14,7 @@ const Contact = () => {
     <>
       <section className='contact_section'>
        <div className="container">
-          <div className="contact_items">
+          <div className="contact_items" data-aos="fade-down">
              <div className="contact_item_left">
              <div className="adavantages_title_Text">
                 <h2 data-aos="fade-down-right"><span className="yellow_line"></span>{t("contacts")}</h2>
