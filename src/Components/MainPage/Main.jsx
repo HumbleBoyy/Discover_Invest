@@ -58,12 +58,12 @@ const Main = () => {
 
 
 
-{/* <MainAbout/>
-<MainAdvantage/>
-<SliderPic/>
-<Projects/>
-<News/>
-<Contact/> */}
+<MainAbout/>
+{/* <MainAdvantage/> */}
+{/* <SliderPic/> */}
+{/* <Projects/> */}
+{/* <News/> */}
+{/* <Contact/> */}
     </>
   )
 }
