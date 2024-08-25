@@ -11,6 +11,7 @@ const News = () => {
         infinite: true,
         speed: 500,
         slidesToShow: 3,
+        arrows:false,
         slidesToScroll: 3,
         initialSlide: 0,
         responsive: [
@@ -35,7 +36,9 @@ const News = () => {
             breakpoint: 480,
             settings: {
               slidesToShow: 1,
-              slidesToScroll: 1
+              slidesToScroll: 1,
+              autoplay: true,
+              speed: 700,
             }
           }
         ]
