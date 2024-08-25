@@ -19,13 +19,13 @@ const MainAbout = () => {
 
             <div className="container">
               <div className="devide_the_items">
-            <div data-aos="fade-up-right">
+            <div data-aos="fade-up">
                 <div className="about_title_text_items">
-                      <h2 data-aos="fade-down-right "><span className="yellow_line"></span>{t("aboutText_Title")}</h2>
+                      <h2 data-aos="fade-down-right"><span className="yellow_line"></span>{t("aboutText_Title")}</h2>
                       <p data-aos="fade-down-right">{t("aboutText")}</p>
                 </div>
             </div>
-              <div className="About_right_side" data-aos="fade-left">
+              <div className="About_right_side" data-aos="fade-up">
                   <div className="columns">
                      <div className="box invisible_item">
                       <h2 className='number'></h2>
