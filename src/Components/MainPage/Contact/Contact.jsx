@@ -1,6 +1,8 @@
 import React from 'react'
 import "./contact.css"
 import { IoLocationSharp } from "react-icons/io5";
+import { FaPhoneVolume } from "react-icons/fa6";
+import { LuAlarmClock } from "react-icons/lu";
 import { t } from 'i18next'
 const Contact = () => {
   return (
@@ -22,8 +24,8 @@ const Contact = () => {
                      <p className='adress_paragraph'>+998 71 288 88 88</p>
                   </div>
                   <div className="adress_info_item">
-                     <h2 className='adress'><FaClock />{t("address")}</h2>
-                     <p className='adress_paragraph'>{t("addressText")}</p>
+                     <h2 className='adress'><LuAlarmClock />{t("workingHours")}</h2>
+                     <p className='adress_paragraph'>{t("week")}</p>
                   </div>
               </div>
              </div>

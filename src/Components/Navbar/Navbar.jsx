@@ -49,21 +49,21 @@ const Navbar = () => {
         <div className="container">
         <nav>
            <div className="nav_logo">
-               <Link to={'/'}>{scrolled ? <LogoDark/> : <LogoLight/>}</Link>
+               <Link to={'#'}>{scrolled ? <LogoDark/> : <LogoLight/>}</Link>
            </div>
             <div className="nav_links">
             <ul>
-               <li><NavLink className={"menu_links"} to={"/about"}>{t("about")}</NavLink></li>
-               <li><NavLink className={"menu_links"} to={"/projects"}>{t("projects")}</NavLink></li>
-               <li><NavLink className={"menu_links"} to={"/career"}>{t("career")}</NavLink></li>
-               <li><NavLink className={"menu_links"} to={"/news"}>{t("news")}</NavLink></li>
-               <li><NavLink className={"menu_links"} to={"/contact"}>{t("contacts")}</NavLink></li>
+               <li><NavLink className={"menu_links"} to={"#about"}>{t("about")}</NavLink></li>
+               <li><NavLink className={"menu_links"} to={"#projects"}>{t("projects")}</NavLink></li>
+               <li><NavLink className={"menu_links"} to={"#career"}>{t("career")}</NavLink></li>
+               <li><NavLink className={"menu_links"} to={"#news"}>{t("news")}</NavLink></li>
+               <li><NavLink className={"menu_links"} to={"#contact"}>{t("contacts")}</NavLink></li>
             </ul>
             </div>
             <div className="social_media">
-               <Link to={"/contact"}><FontAwesomeIcon className='nav_socialMedia_icons' icon={faTelegram} /></Link>
-               <Link to={"/contact"}><FontAwesomeIcon className='nav_socialMedia_icons' icon={faInstagram} /></Link>
-               <Link to={"/contact"}><FontAwesomeIcon className='nav_socialMedia_icons' icon={faFacebookF} /></Link>
+               <Link to={"#contact"}><FontAwesomeIcon className='nav_socialMedia_icons' icon={faTelegram} /></Link>
+               <Link to={"#contact"}><FontAwesomeIcon className='nav_socialMedia_icons' icon={faInstagram} /></Link>
+               <Link to={"#contact"}><FontAwesomeIcon className='nav_socialMedia_icons' icon={faFacebookF} /></Link>
             </div>
             <div className="language">
             <select name="lng" id="Lng" className='selectNavbar language_first' onChange={handleChange} value={languages}>
@@ -75,7 +75,7 @@ const Navbar = () => {
             <div className="nav_number_contact">
                <a href="+ 998 (71) 288 88 88" className='phone_number '>+ 998 (71) 288 88 88</a>
                <div className='phone_card phone_number_small'>
-               <Link to={"+ 998 (71) 288 88 88"}><FontAwesomeIcon className='phone_icon' icon={faPhone} /></Link>
+               <Link to={"#+ 998 (71) 288 88 88"}><FontAwesomeIcon className='phone_icon' icon={faPhone} /></Link>
               </div>
             </div>
         </nav>
@@ -94,11 +94,11 @@ const Navbar = () => {
               {/* <FontAwesomeIcon icon={faX} fontSize={27} cursor={"pointer"} className='overlay_close icon_darker' onClick={()=> setToggle(false)}/> */}
                  <div className="small_menu">
                  <ul>
-                  <li><NavLink className={"menu_links"} to={"/about"}>{t("about")}</NavLink></li>
-                  <li><NavLink className={"menu_links"} to={"/projects"}>{t("projects")}</NavLink></li>
-                  <li><NavLink className={"menu_links"} to={"/career"}>{t("career")}</NavLink></li>
-                  <li><NavLink className={"menu_links"} to={"/news"}>{t("news")}</NavLink></li>
-                  <li><NavLink className={"menu_links"} to={"/contact"}>{t("contacts")}</NavLink></li>
+                  <li><NavLink className={"menu_links"} to={"#about"}>{t("about")}</NavLink></li>
+                  <li><NavLink className={"menu_links"} to={"#projects"}>{t("projects")}</NavLink></li>
+                  <li><NavLink className={"menu_links"} to={"#career"}>{t("career")}</NavLink></li>
+                  <li><NavLink className={"menu_links"} to={"#news"}>{t("news")}</NavLink></li>
+                  <li><NavLink className={"menu_links"} to={"#contact"}>{t("contacts")}</NavLink></li>
                 </ul>
                  </div>
                 <div className="language">
