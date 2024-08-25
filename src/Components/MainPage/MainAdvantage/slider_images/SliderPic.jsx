@@ -19,6 +19,7 @@ const SliderPic = () => {
     autoplay: true,
     speed: 3000,
     autoplaySpeed: 1000,
+    arrows:false,
     cssEase: "linear",
     responsive: [
       {

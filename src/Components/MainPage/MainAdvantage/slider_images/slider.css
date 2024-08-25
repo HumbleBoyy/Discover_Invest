@@ -90,8 +90,12 @@
     line-height: 20px;
   }
 
- 
-
+  .slick-prev, .slick-next {
+    display: none;
+  }
+  .slick-prev:before, .slick-next:before {
+    display: none;
+}
   @media(max-width:1024px){
     .slider_btns{
        display: none;
