@@ -59,7 +59,7 @@ const Main = () => {
 
 
 <MainAbout/>
-{/* <MainAdvantage/> */}
+<MainAdvantage/>
 {/* <SliderPic/> */}
 {/* <Projects/> */}
 {/* <News/> */}

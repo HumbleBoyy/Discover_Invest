@@ -10,12 +10,12 @@ const MainAdvantage = () => {
     <>
 <section className='advantages'>
   <div className="container">
-  <div className="adavantages_title" data-aos="fade-down-right">
+  <div className="adavantages_title" data-aos="fade-down">
   <div className="adavantages_title_Text">
       <h2 data-aos="fade-down-right"><span className="yellow_line"></span>{t("ouradvantages")}</h2>
     </div>
   </div>
-  <div className="advantages_items" data-aos="fade-down-right">
+  <div className="advantages_items" data-aos="fade-down">
       <div className="advantages_item">
          <FontAwesomeIcon className='advantages_icon Both_hover' icon={faUsers} />
          <h3 className='Both_hover'>{t("team")}</h3>
