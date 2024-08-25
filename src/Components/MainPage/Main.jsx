@@ -63,7 +63,7 @@ const Main = () => {
 <SliderPic/>
 <Projects/>
 <News/>
-{/* <Contact/> */}
+<Contact/>
     </>
   )
 }
