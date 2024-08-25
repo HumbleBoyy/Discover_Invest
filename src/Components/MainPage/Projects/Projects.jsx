@@ -59,7 +59,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="new_button">
-       <div className="main_btns">
+       <div className="main_btns news_button">
             <Link to={"#projects"}>
                <span>{t("allProject")}</span>
             </Link>

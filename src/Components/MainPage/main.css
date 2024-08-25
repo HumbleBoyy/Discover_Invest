@@ -160,6 +160,9 @@
   width: 8rem;
   margin-right: 1.5rem;
 }
+.news_button{
+  width: 12rem;
+}
 }
 
 @media (max-width: 340px){
