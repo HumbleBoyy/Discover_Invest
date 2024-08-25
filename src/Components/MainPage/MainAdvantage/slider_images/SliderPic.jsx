@@ -22,6 +22,13 @@ const SliderPic = () => {
     cssEase: "linear",
     responsive: [
       {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        }
+      },
+      {
         breakpoint: 900,
         settings: {
           slidesToShow: 2,
@@ -41,7 +48,7 @@ const SliderPic = () => {
     <>
        <section className='sliderPic'>
         <div className='container'>
-           <div className='slideText'>
+           <div className='slideText' data-aos="fade-up">
               <h2 className='slider_title'><span className="yellow_line"></span>{t("team")}</h2>
               <div className='slider_btns'>
                 <button className='slider_btn'><FontAwesomeIcon className='slide_icons' icon={faChevronLeft} /></button>
@@ -49,7 +56,7 @@ const SliderPic = () => {
               </div>
            </div>
 
-           <div className="slider-container">
+           <div className="slider-container" data-aos="fade-up">
            <Slider {...settings}>
               <div className='slide_workers'>
                 <img src={image.workerOne} alt="Discover_invest_Workers_image" />

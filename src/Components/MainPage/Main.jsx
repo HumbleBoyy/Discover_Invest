@@ -60,7 +60,7 @@ const Main = () => {
 
 <MainAbout/>
 <MainAdvantage/>
-{/* <SliderPic/> */}
+<SliderPic/>
 {/* <Projects/> */}
 {/* <News/> */}
 {/* <Contact/> */}
