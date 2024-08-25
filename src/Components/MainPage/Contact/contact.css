@@ -15,7 +15,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     gap: 0.5rem;
-    margin-top: 1rem;
+    margin-top: 3rem;
 }
 
 .adress_info_item{
@@ -121,4 +121,13 @@
     border: none;
     cursor: pointer;
     margin-top: 1.10rem;
+}
+
+.contact_item_right{
+    width: 45%;
+    height: 33.4rem;
+}
+.google_map{
+    width:600px;
+    height:450px;
 }
