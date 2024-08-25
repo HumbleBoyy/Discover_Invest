@@ -16,6 +16,7 @@ import newsOne from "../images/newsone.webp"
 import newsTwo from "../images/newstwo.webp"
 import newsthree from "../images/newsthree.webp"
 import newsFour from "../images/newsfour.webp"
+import flag from "../images/uzbflag.png"
 export default {
     LogoWhite,
     LogoDark,
@@ -36,5 +37,6 @@ export default {
     newsOne,
     newsTwo,
     newsthree,
-    newsFour
+    newsFour,
+    flag
 }
