@@ -9,6 +9,7 @@
 .news__carousel-item{
     position: relative;
     cursor: pointer;
+    margin-right: 1rem;
 }
 .slider-container{
     margin-top: 2rem;
@@ -110,13 +111,8 @@ background: linear-gradient(0deg, #FAB448 0%, rgba(250, 180, 72, 0) 100%);
     visibility: visible;
 }
 
-
-.slick-prev:before, .slick-next:before {
-    font-family: 'slick';
-    font-size: 2.5rem;
-    line-height: 1;
-    opacity: 1;
-    color: #FAB448;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+.new_button{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
 }

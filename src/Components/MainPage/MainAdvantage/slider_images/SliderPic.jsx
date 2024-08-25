@@ -7,6 +7,7 @@ import { faChevronLeft, faChevronRight, faL } from '@fortawesome/free-solid-svg-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import { Link } from 'react-router-dom';
 const SliderPic = () => {
   const {t, i18n} = useTranslation();
 

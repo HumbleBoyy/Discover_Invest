@@ -1,0 +1,18 @@
+.contact_section{
+    padding-top: 3rem;
+    background: url(../../../images/contactbg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    height: 100vh;
+}
+
+.map{
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    z-index: 2500;
+    cursor: url(https://api-maps.yandex.ru/2.1.79/build/release/images/cursor/grab.cur) 16 16, url(https://api-maps.yandex.ru/2.1.79/build/release/images/cursor/grab.cur), move;
+}

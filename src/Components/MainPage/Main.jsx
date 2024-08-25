@@ -11,6 +11,7 @@ import MainAdvantage from './MainAdvantage/MainAdvantage';
 import SliderPic from './MainAdvantage/slider_images/SliderPic';
 import Projects from './Projects/Projects';
 import News from './News/News';
+import Contact from './Contact/Contact';
 const Main = () => {
   const {t, i18n} = useTranslation();
   useEffect(() => {
@@ -40,12 +41,12 @@ const Main = () => {
 
        <div className="mains_buttons">
        <div className="main_btns">
-            <Link to={"/projects"}>
+            <Link to={"#projects"}>
                <span>{t("projects")}</span>
             </Link>
         </div>
         <div className="main_btns">
-            <Link to={"/contact"}>
+            <Link to={"#contact"}>
                <span className="contact">{t("contacts")}</span>
             </Link>
         </div>
@@ -62,6 +63,7 @@ const Main = () => {
 <SliderPic/>
 <Projects/>
 <News/>
+<Contact/>
     </>
   )
 }

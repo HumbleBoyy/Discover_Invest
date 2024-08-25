@@ -3,6 +3,7 @@ import "./projects.css"
 import "../MainAdvantage/MainAdvantage.css"
 import { t } from 'i18next'
 import image from '../../../assets/image'
+import { Link } from 'react-router-dom'
 const Projects = () => {
   return (
     <>
@@ -57,6 +58,13 @@ const Projects = () => {
                 </div>
             </div>
           </div>
+          <div className="new_button">
+       <div className="main_btns">
+            <Link to={"#projects"}>
+               <span>{t("allProject")}</span>
+            </Link>
+        </div>
+       </div>
           </div>
           </div>
       </section>
